@@ -33,14 +33,14 @@ apt install ./assistant.deb -y
 
 echo "--- Готово! ---"
 
-seconds=10
-echo "Внимание! Компьютер перезагрузится через $seconds секунд."
+#seconds=10
+#echo "Внимание! Компьютер перезагрузится через $seconds секунд."
 
-while [ $seconds -gt 0 ]; do
-    echo -ne "Осталось: $seconds сек. \r"
-    sleep 1
-    : $((seconds--))
-done
+#while [ $seconds -gt 0 ]; do
+#    echo -ne "Осталось: $seconds сек. \r"
+#    sleep 1
+#    : $((seconds--))
+#done
 
-echo -e "\nВыполняю перезагрузку..."
-reboot now
+#echo -e "\nВыполняю перезагрузку..."
+#reboot now
